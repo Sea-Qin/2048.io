@@ -1,8 +1,43 @@
-#new_game_button{text-align: center; display: block;width: 120px; padding: 10px 0; border-radius: 3px;background-color: rgb(153, 84, 37);
-    text-decoration: none; font-size: 14px;margin: 20px auto;color: #fff;}
-p{text-align: center;}
-h1{text-align: center;}
-.main_body{width: 460px;height: 460px;padding: 20px;margin: 0 auto;position: relative;border: 2px solid rgb(109, 87, 77); background-color: rgb(145, 96, 74);border-radius: 10px;top: 0;left: 0;}
-.grid_cell{width: 100px;height: 100px;background-color: rgb(148, 70, 50);position: absolute;border-radius: 5px;}
+#new_game_button{
+  text-align: center;
+  display: block;
+  width: 120px;
+  padding: 10px 0;
+  border-radius: 3px;
+  background-color: rgb(153, 84, 37);
+  text-decoration: none;
+  font-size: 14px;
+  margin: 20px auto;
+  color: #fff;
+}
+p,h1{
+  text-align: center;
+}
+/* h1{
+  text-align: center;} */
+.main_body{
+  width: 460px;
+  height: 460px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid rgb(109, 87, 77);
+  background-color: rgb(145, 96, 74);
+  border-radius: 10px;top: 0;left: 0;
+}
+.grid_cell{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(148, 70, 50);
+  position: absolute;
+  border-radius: 5px;
+}
 /*设置棋盘数元素的样式,不设置宽度，以便控制其是否显示*/
-.number_cell{height: 100px;border-radius: 5px;position: absolute;text-align: center;line-height: 100px;font: 60px bold Arial;} 
+.number_cell{
+  height: 100px;
+  border-radius: 5px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  font: 60px bold Arial;
+} 
